@@ -42,6 +42,7 @@
             this.but_add = new System.Windows.Forms.Button();
             this.but_up = new System.Windows.Forms.Button();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.cachedCrystalReport4 = new Qusai.Report.CachedCrystalReport4();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -313,5 +314,6 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button5;
+        private Report.CachedCrystalReport4 cachedCrystalReport4;
     }
 }

@@ -100,7 +100,7 @@ namespace Qusai.FORM
         }
 
         private void button1_Click_1(object sender, EventArgs e)
-        {
+        { 
             FROM_PREVIEW frm = new FROM_PREVIEW();
             byte[] image = (byte[])user.GET_IMAGE_USER(dataGridView1.CurrentRow.Cells[0].Value.ToString()).Rows[0][0];
             MemoryStream ms = new MemoryStream(image);

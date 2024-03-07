@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Data.SqlClient;
 using System.Data;
 using System.IO;
-
+//
 namespace Qusai.BL
 {
     class student
@@ -58,7 +58,7 @@ namespace Qusai.BL
             param[0].Value = ID;
             DAl.ExecuteCommand("SP_DELETE_STUDENT", param);
             DAl.cloes();
-            //قصي
+            //MohammedQahtan
             //حذف المستخدم
         }
     }

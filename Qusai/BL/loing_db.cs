@@ -26,7 +26,7 @@ namespace Qusai.BL
             dt = DAl.SelectData("SP_LOGING", param);
             DAl.cloes();
             return dt;
-            //قصي
+            //MohammedQahtan
         }
         public DataTable get_all_loing(string Name, string PWD)
         {

@@ -29,6 +29,8 @@
         private void InitializeComponent()
         {
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.cachedCrystalReport41 = new Qusai.Report.CachedCrystalReport4();
+            this.cachedCrystalReport42 = new Qusai.Report.CachedCrystalReport4();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -41,6 +43,7 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // FROM_PREVIEW
             // 
@@ -61,5 +64,7 @@
         #endregion
 
         public System.Windows.Forms.PictureBox pictureBox1;
+        private Report.CachedCrystalReport4 cachedCrystalReport41;
+        private Report.CachedCrystalReport4 cachedCrystalReport42;
     }
 }

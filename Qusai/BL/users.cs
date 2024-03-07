@@ -18,7 +18,7 @@ namespace Qusai.BL
             dt = DAl.SelectData("GET_ALL_USER_TYPE", null);
             DAl.cloes();
             return dt;
-            //قصي
+            //MohammedQahtan
             //جلب نوع المستخدم
         }
         public DataTable GET_ALL_GENDER()
@@ -28,7 +28,7 @@ namespace Qusai.BL
             dt = DAl.SelectData("GET_ALL_GENDER", null);
             DAl.cloes();
             return dt;
-            //قصي
+            //MohammedQahtan
             //جلب نوع الجنس
         }
         public DataTable VERIF_YUSER_ID(string ID)
@@ -41,7 +41,7 @@ namespace Qusai.BL
             dt = DAl.SelectData("VERIF_YUSER_ID", param);
             DAl.cloes();
             return dt;
-            //قصي
+            //MohammedQahtan
             //معرف المستخدم بحيث عدم التكرر نفس المعرف
         }
         public DataTable GET_IMAGE_USER(string ID)
@@ -54,7 +54,7 @@ namespace Qusai.BL
             dt = DAl.SelectData("GET_IMAGE_USER", param);
             DAl.cloes();
             return dt;
-            //قصي
+            //MohammedQahtan
             //جلب الصورة من قاعدة البيانات
         }
         public void SP_ADD_LOGING(string user_id, string user_name, string user_pass, byte[] user_image, string user_date, int type_id, int gender_id)
@@ -78,7 +78,7 @@ namespace Qusai.BL
             param[6].Value = gender_id;
             DAl.ExecuteCommand("SP_ADD_LOGING", param);
             DAl.cloes();
-            //قصي
+            //MohammedQahtan
             //اضافة المستخدمين
 
         }
@@ -103,7 +103,7 @@ namespace Qusai.BL
             param[6].Value = gender_id;
             DAl.ExecuteCommand("SP_UPDATE_LOGING", param);
             DAl.cloes();
-            //قصي
+            //MohammedQahtan
             //التعديل على المستخدمين
         }
         public void SP_DELETE_LOGING(string ID)
@@ -115,7 +115,7 @@ namespace Qusai.BL
             param[0].Value = ID;
             DAl.ExecuteCommand("SP_DELETE_LOGING", param);
             DAl.cloes();
-            //قصي
+            //MohammedQahtan
             //حذف المستخدم
         }
         public DataTable SP_SHOW_LOGING()
@@ -126,7 +126,7 @@ namespace Qusai.BL
             dt = DAl.SelectData("SP_SHOW_LOGING", null);
             DAl.cloes();
             return dt;
-            //قصي
+            //MohammedQahtan
             //عرض جدول المستخدمين
         }
         public DataTable SP_RESEARCH_LOGING(string ID)

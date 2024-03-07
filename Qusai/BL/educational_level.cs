@@ -18,7 +18,7 @@ namespace Qusai.BL
             dt = DAl.SelectData("GET_ALL_EDUCATIONL_LEVEL", null);
             DAl.cloes();
             return dt;
-            //قصي
+            //MohammedQahtan
             //جلب نوع المستخدم
         }
         public DataTable GET_ALL_CLASS_ROOM()
@@ -28,7 +28,7 @@ namespace Qusai.BL
             dt = DAl.SelectData("GET_ALL_CLASS_ROOM", null);
             DAl.cloes();
             return dt;
-            //قصي
+            //MohammedQahtan
             //جلب نوع المستخدم
         }
         public DataTable GET_ALL_GENDER()
@@ -38,7 +38,7 @@ namespace Qusai.BL
             dt = DAl.SelectData("GET_ALL_GENDER", null);
             DAl.cloes();
             return dt;
-            //قصي
+            //MohammedQahtan
             //جلب نوع الجنس
         }
         public DataTable GET_ALL_SCHOOL_YEAR()
@@ -48,7 +48,7 @@ namespace Qusai.BL
             dt = DAl.SelectData("GET_ALL_SCHOOL_YEAR", null);
             DAl.cloes();
             return dt;
-            //قصي
+            //MohammedQahtan
             //جلب نوع الجنس
         }
         public DataTable SP_SHOW_STUDENT()
@@ -59,7 +59,7 @@ namespace Qusai.BL
             dt = DAl.SelectData("SP_SHOW_STUDENT", null);
             DAl.cloes();
             return dt;
-            //قصي
+            //MohammedQahtan
             //عرض جدول الطلاب
         }
         public DataTable GET_ALL_GOVERNORATES()
@@ -70,7 +70,7 @@ namespace Qusai.BL
             dt = DAl.SelectData("GET_ALL_GOVERNORATES", null);
             DAl.cloes();
             return dt;
-            //قصي
+            //MohammedQahtan
             //عرض جدول المحافظات
         }
         public DataTable GET_ALL_DISTRICTS()
@@ -81,7 +81,7 @@ namespace Qusai.BL
             dt = DAl.SelectData("GET_ALL_DISTRICTS", null);
             DAl.cloes();
             return dt;
-            //قصي
+            //MohammedQahtan
             //عرض جدول المدريات
         }
         public DataTable GET_ALL_UZAAL()
@@ -92,7 +92,7 @@ namespace Qusai.BL
             dt = DAl.SelectData("GET_ALL_UZAAL", null);
             DAl.cloes();
             return dt;
-            //قصي TB_uzaal
+            //MohammedQahtan TB_uzaal
             //عرض جدول العزل
         }
         public DataTable VERIFY_GOVERNORATES_ID(string ID)
@@ -105,7 +105,7 @@ namespace Qusai.BL
             dt = DAl.SelectData("VERIF_YUSER_ID", param);
             DAl.cloes();
             return dt;
-            //قصي
+            //MohammedQahtan
             //معرف المستخدم بحيث عدم التكرر نفس المعرف
         }
 
